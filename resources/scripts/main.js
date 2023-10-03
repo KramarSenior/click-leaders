@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const form = document.querySelector('#register-form');
+    clearInputsError();
     form.addEventListener('submit', function (e) {
         e.preventDefault();
         const formData = new FormData(this);
@@ -45,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         }
 
-        clearInputsError();
+
     }
 
     function clearInputsError() {

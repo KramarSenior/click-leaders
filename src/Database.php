@@ -33,6 +33,7 @@ class Database
     }
 
     public function createTableIfNotExists() {
+        $this->connection->query("USE clickleaders");
         $this->connection->query("
             CREATE TABLE IF NOT EXISTS users (
                 id INT AUTO_INCREMENT PRIMARY KEY,
