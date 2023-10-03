@@ -1,0 +1,10 @@
+/vendor/
+/.ddev/config.yaml
+/.idea/.gitignore
+/.idea/click-leaders.iml
+/.idea/dataSources.xml
+/.idea/modules.xml
+/.idea/php.xml
+/.idea/sqldialects.xml
+/.idea/vcs.xml
+/node_modules/*
